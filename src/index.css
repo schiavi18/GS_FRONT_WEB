@@ -1,68 +1,48 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* Base styles */
+@layer base {
+  body {
+    @apply bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text transition-colors duration-300;
+    font-family: 'Inter', system-ui, sans-serif;
   }
-  a:hover {
-    color: #747bff;
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold;
   }
-  button {
-    background-color: #f9f9f9;
+}
+
+/* Component styles */
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 bg-brand-primary text-white rounded-lg font-medium hover:bg-blue-700 transition-colors duration-200 shadow-sm hover:shadow-md;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 border border-light-border dark:border-dark-border text-light-text dark:text-dark-text rounded-lg font-medium hover:bg-light-surface dark:hover:bg-dark-surface transition-colors duration-200;
+  }
+
+  .card {
+    @apply bg-light-surface dark:bg-dark-surface border border-light-border dark:border-dark-border rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200;
+  }
+
+  .input-field {
+    @apply px-4 py-2 border border-light-border dark:border-dark-border rounded-lg bg-light-surface dark:bg-dark-surface text-light-text dark:text-dark-text focus:outline-none focus:ring-2 focus:ring-brand-primary transition-all duration-200;
+  }
+
+  .badge {
+    @apply inline-block px-3 py-1 rounded-full text-sm font-medium;
+  }
+
+  .badge-primary {
+    @apply badge bg-blue-100 dark:bg-blue-900 text-brand-primary dark:text-blue-300;
+  }
+
+  .badge-secondary {
+    @apply badge bg-purple-100 dark:bg-purple-900 text-brand-secondary dark:text-purple-300;
   }
 }
