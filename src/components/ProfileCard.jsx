@@ -30,3 +30,44 @@ export default function ProfileCard({ p, onOpen, isFavorite, onToggleFavorite })
           {isFavorite ? '❤️' : '🤍'}
         </button>
       </div>
+      {/* Profile Image */}
+      <div className="mb-2 sm:mb-3 overflow-hidden rounded-lg">
+        <img
+          src={p.foto}
+          alt={p.nome}
+          className="w-full h-32 sm:h-40 object-cover transition-transform duration-300"
+          style={{ transform: isHovered ? 'scale(1.05)' : 'scale(1)' }}
+        />
+      </div>
+
+      {/* Location */}
+      <div className="flex items-center gap-1 text-xs sm:text-sm text-light-muted dark:text-dark-muted mb-2">
+        <span>📍</span>
+        <span className="line-clamp-1">{p.localizacao}</span>
+      </div>
+
+      {/* Area Badge */}
+      <div className="mb-2 sm:mb-3">
+        <span className="badge-secondary text-xs">
+          {p.area}
+        </span>
+      </div>
+
+      {/* Skills */}
+      <div className="mb-2 sm:mb-3">
+        <div className="flex flex-wrap gap-1">
+          {p.habilidadesTecnicas.slice(0, 3).map((h, i) => (
+            <span
+              key={i}
+              className="badge bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-xs"
+            >
+              {h}
+            </span>
+          ))}
+          {p.habilidadesTecnicas.length > 3 && (
+            <span className="badge bg-gray-100 dark:bg-gray-800 text-light-muted dark:text-dark-muted text-xs">
+              +{p.habilidadesTecnicas.length - 3}
+            </span>
+          )}
+        </div>
+      </div>
