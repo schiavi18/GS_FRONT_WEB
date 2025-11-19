@@ -49,3 +49,48 @@ export default function Hero({ totalProfiles, onSearchFocus }) {
               </div>
             </div>
           </div>
+          {/* Visual */}
+          <div className="hidden md:block">
+            <div className="relative">
+              {/* Gradient Background */}
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-primary/20 to-brand-secondary/20 rounded-3xl blur-3xl"></div>
+              
+              {/* Card Stack */}
+              <div className="relative space-y-4">
+                <div className="bg-light-surface dark:bg-dark-surface rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300 border border-light-border dark:border-dark-border">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-primary to-brand-secondary"></div>
+                    <div>
+                      <div className="font-semibold text-light-text dark:text-dark-text">Desenvolvimento</div>
+                      <div className="text-sm text-light-muted dark:text-dark-muted">2.5K profissionais</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-light-surface dark:bg-dark-surface rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300 border border-light-border dark:border-dark-border ml-8">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-secondary to-brand-accent"></div>
+                    <div>
+                      <div className="font-semibold text-light-text dark:text-dark-text">Design</div>
+                      <div className="text-sm text-light-muted dark:text-dark-muted">1.8K profissionais</div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-light-surface dark:bg-dark-surface rounded-2xl p-6 shadow-lg transform hover:scale-105 transition-transform duration-300 border border-light-border dark:border-dark-border">
+                  <div className="flex items-center gap-4">
+                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-brand-accent to-brand-primary"></div>
+                    <div>
+                      <div className="font-semibold text-light-text dark:text-dark-text">Gestão</div>
+                      <div className="text-sm text-light-muted dark:text-dark-muted">1.5K profissionais</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
