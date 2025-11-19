@@ -71,3 +71,15 @@ export default function ProfileCard({ p, onOpen, isFavorite, onToggleFavorite })
           )}
         </div>
       </div>
+      {/* Summary */}
+      <p className="text-xs sm:text-sm text-light-text dark:text-dark-text line-clamp-2 mb-2 sm:mb-3">
+        {p.resumo}
+      </p>
+
+      {/* Click Hint */}
+      <div className="text-xs text-brand-primary font-medium">
+        Ver perfil completo →
+      </div>
+    </div>
+  )
+}
