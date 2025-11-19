@@ -162,3 +162,90 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
               </ul>
             </div>
           )}
+          {/* Languages */}
+          {p.idiomas && p.idiomas.length > 0 && (
+            <div>
+              <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+                Idiomas
+              </h3>
+              <div className="space-y-2">
+                {p.idiomas.map((lang, i) => (
+                  <div key={i} className="flex justify-between text-light-text dark:text-dark-text">
+                    <span>{lang.idioma}</span>
+                    <span className="text-brand-primary font-medium">{lang.nivel}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Interests */}
+          {p.areaInteresses && p.areaInteresses.length > 0 && (
+            <div>
+              <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+                Áreas de Interesse
+              </h3>
+              <div className="flex flex-wrap gap-2">
+                {p.areaInteresses.map((interest, i) => (
+                  <span
+                    key={i}
+                    className="badge bg-green-100 dark:bg-green-900/40 text-green-700 dark:text-green-300"
+                  >
+                    {interest}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Projects */}
+          {p.projetos && p.projetos.length > 0 && (
+            <div>
+              <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+                Projetos
+              </h3>
+              <div className="space-y-3">
+                {p.projetos.map((proj, i) => (
+                  <div key={i} className="card p-4">
+                    <p className="font-semibold text-light-text dark:text-dark-text mb-1">
+                      {proj.titulo}
+                    </p>
+                    <p className="text-sm text-light-muted dark:text-dark-muted mb-2">
+                      {proj.descricao}
+                    </p>
+                    <a
+                      href={proj.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-brand-primary hover:underline text-sm font-medium"
+                    >
+                      Ver projeto →
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Footer */}
+        <div className="sticky bottom-0 bg-light-surface dark:bg-dark-surface border-t border-light-border dark:border-dark-border p-3 sm:p-4 md:p-6 flex flex-col sm:flex-row gap-2 sm:gap-3">
+          <button className="btn-secondary flex-1 flex items-center justify-center gap-2 text-sm sm:text-base">
+            <span>👍</span>
+            Recomendar
+          </button>
+          <button className="btn-primary flex-1 flex items-center justify-center gap-2 text-sm sm:text-base">
+            <span>💬</span>
+            Enviar mensagem
+          </button>
+          <button
+            onClick={onClose}
+            className="btn-secondary flex-1 text-sm sm:text-base"
+          >
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  )
+}
