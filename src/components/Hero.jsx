@@ -20,3 +20,32 @@ export default function Hero({ totalProfiles, onSearchFocus }) {
                 Explore uma comunidade de {totalProfiles} profissionais talentosos de diferentes áreas. Encontre especialistas, colaboradores e mentores para impulsionar sua carreira.
               </p>
             </div>
+            {/* CTA Button */}
+            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-2 sm:pt-4">
+              <button
+                onClick={onSearchFocus}
+                className="w-full sm:w-auto px-5 sm:px-6 py-2.5 sm:py-3 bg-gradient-to-r from-brand-primary to-brand-secondary text-white font-semibold rounded-lg hover:shadow-lg transition-all duration-200 transform hover:-translate-y-1 text-center"
+              >
+                Começar a explorar
+              </button>
+              <button className="w-full sm:w-auto px-5 sm:px-6 py-2.5 sm:py-3 border border-light-border dark:border-dark-border text-light-text dark:text-dark-text font-semibold rounded-lg hover:bg-light-border dark:hover:bg-dark-border transition-colors text-center">
+                Saiba mais
+              </button>
+            </div>
+
+            {/* Stats */}
+            <div className="grid grid-cols-3 gap-3 sm:gap-4 pt-6 sm:pt-8 border-t border-light-border dark:border-dark-border">
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-brand-primary">{totalProfiles}+</div>
+                <div className="text-xs sm:text-sm text-light-muted dark:text-dark-muted">Profissionais</div>
+              </div>
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-brand-secondary">50+</div>
+                <div className="text-sm text-light-muted dark:text-dark-muted">Áreas</div>
+              </div>
+              <div>
+                <div className="text-xl sm:text-2xl font-bold text-brand-accent">100%</div>
+                <div className="text-sm text-light-muted dark:text-dark-muted">Verificados</div>
+              </div>
+            </div>
+          </div>
