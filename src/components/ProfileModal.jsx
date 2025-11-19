@@ -80,3 +80,85 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
               ))}
             </div>
           </div>
+          {/* Soft Skills */}
+          <div>
+            <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+              Soft Skills
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {p.softSkills.map((s, i) => (
+                <span
+                  key={i}
+                  className="badge bg-purple-100 dark:bg-purple-900/40 text-purple-700 dark:text-purple-300"
+                >
+                  {s}
+                </span>
+              ))}
+            </div>
+          </div>
+
+          {/* Experience */}
+          <div>
+            <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+              Experiência Profissional
+            </h3>
+            <div className="space-y-4">
+              {p.experiencias.map((e, i) => (
+                <div key={i} className="border-l-4 border-brand-primary pl-4">
+                  <p className="font-semibold text-light-text dark:text-dark-text">
+                    {e.cargo}
+                  </p>
+                  <p className="text-sm text-light-muted dark:text-dark-muted">
+                    {e.empresa}
+                  </p>
+                  <p className="text-xs text-light-muted dark:text-dark-muted mb-2">
+                    {e.inicio} → {e.fim}
+                  </p>
+                  <p className="text-sm text-light-text dark:text-dark-text">
+                    {e.descricao}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Education */}
+          {p.formacao && p.formacao.length > 0 && (
+            <div>
+              <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+                Formação Acadêmica
+              </h3>
+              <div className="space-y-3">
+                {p.formacao.map((f, i) => (
+                  <div key={i} className="border-l-4 border-brand-secondary pl-4">
+                    <p className="font-semibold text-light-text dark:text-dark-text">
+                      {f.curso}
+                    </p>
+                    <p className="text-sm text-light-muted dark:text-dark-muted">
+                      {f.instituicao}
+                    </p>
+                    <p className="text-xs text-light-muted dark:text-dark-muted">
+                      {f.ano}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Certifications */}
+          {p.certificacoes && p.certificacoes.length > 0 && (
+            <div>
+              <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
+                Certificações
+              </h3>
+              <ul className="space-y-2">
+                {p.certificacoes.map((c, i) => (
+                  <li key={i} className="flex items-center gap-2 text-light-text dark:text-dark-text">
+                    <span className="text-brand-success">✓</span>
+                    {c}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
