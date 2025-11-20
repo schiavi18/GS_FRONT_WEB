@@ -1,0 +1,3302 @@
+[
+  {
+    "id": 1,
+    "nome": "Yago Oliveira",
+    "foto": "./images/avatar2.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em AWS, Java, HTML e foco em soluções práticas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Java",
+      "HTML"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 48",
+        "cargo": "Estagiário",
+        "inicio": "2017-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Xênia Souza",
+    "foto": "./images/avatar3.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em AWS, Adobe XD, C# e foco em soluções práticas.",
+    "localizacao": "Manaus/AM",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Adobe XD",
+      "C#"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Resiliência",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 25",
+        "cargo": "Designer",
+        "inicio": "2021-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde",
+      "Automação"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Patrícia Oliveira",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em Figma, Docker, AWS e foco em soluções práticas.",
+    "localizacao": "Brasília/DF",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Figma",
+      "Docker",
+      "AWS"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Desenvolvedor",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Rafaela Gomes",
+    "foto": "./images/avatar5.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em C#, TypeScript, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "C#",
+      "TypeScript",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Coordenador",
+        "inicio": "2021-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "FIAP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Hugo Rodrigues",
+    "foto": "./images/avatar6.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Java, Kubernetes, Python e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "Java",
+      "Kubernetes",
+      "Python"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Designer",
+        "inicio": "2021-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Samuel Gomes",
+    "foto": "./images/avatar7.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Python, TypeScript, React e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Python",
+      "TypeScript",
+      "React"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 17",
+        "cargo": "Estagiário",
+        "inicio": "2015-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "UNIP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Automação"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Samuel Almeida",
+    "foto": "./images/avatar8.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em HTML, Python, SQL e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Python",
+      "SQL"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Designer",
+        "inicio": "2021-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "USP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Isabela Oliveira",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em HTML, SQL, Docker e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "HTML",
+      "SQL",
+      "Docker"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pensamento crítico",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 14",
+        "cargo": "Gerente",
+        "inicio": "2015-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNIP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Automação"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "William Santos",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em Node.js, Figma, Tailwind e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Figma",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 9",
+        "cargo": "Analista",
+        "inicio": "2018-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde",
+      "Automação"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Felipe Silva",
+    "foto": "./images/avatar1.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Java, Adobe XD, C# e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Java",
+      "Adobe XD",
+      "C#"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Coordenador",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Hugo Almeida",
+    "foto": "./images/avatar2.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em TypeScript, Kubernetes, Tailwind e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "TypeScript",
+      "Kubernetes",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 22",
+        "cargo": "Coordenador",
+        "inicio": "2019-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "Unicamp",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Marcos Almeida",
+    "foto": "./images/avatar3.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Kubernetes, Docker, SQL e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Kubernetes",
+      "Docker",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 19",
+        "cargo": "Estagiário",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "PUC",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Eduarda Pereira",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em React, Figma, C# e foco em soluções práticas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Educação",
+    "habilidadesTecnicas": [
+      "React",
+      "Figma",
+      "C#"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 7",
+        "cargo": "Analista",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Unicamp",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde",
+      "Educação"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Ana Nascimento",
+    "foto": "./images/avatar5.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em CSS, C#, SQL e foco em soluções práticas.",
+    "localizacao": "Curitiba/PR",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "CSS",
+      "C#",
+      "SQL"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Desenvolvedor",
+        "inicio": "2015-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "UNIP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Automação"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Yago Gomes",
+    "foto": "./images/avatar6.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em Adobe XD, Docker, HTML e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Docker",
+      "HTML"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 48",
+        "cargo": "Estagiário",
+        "inicio": "2019-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "Unicamp",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Diego Costa",
+    "foto": "./images/avatar7.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Java, Adobe XD, React e foco em soluções práticas.",
+    "localizacao": "Brasília/DF",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Java",
+      "Adobe XD",
+      "React"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Comunicação",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Coordenador",
+        "inicio": "2018-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "PUC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Automação"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Laura Nascimento",
+    "foto": "./images/avatar8.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em Docker, AWS, Kubernetes e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "Docker",
+      "AWS",
+      "Kubernetes"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 36",
+        "cargo": "Estagiário",
+        "inicio": "2017-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Nina Souza",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em CSS, Figma, SQL e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Figma",
+      "SQL"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Resiliência",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 48",
+        "cargo": "Coordenador",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "USP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Otávio Silva",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em Adobe XD, Python, Node.js e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Python",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 41",
+        "cargo": "Coordenador",
+        "inicio": "2020-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "PUC",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Felipe Nascimento",
+    "foto": "./images/avatar1.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em SQL, React, HTML e foco em soluções práticas.",
+    "localizacao": "Brasília/DF",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "SQL",
+      "React",
+      "HTML"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 35",
+        "cargo": "Coordenador",
+        "inicio": "2019-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "PUC",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Educação"
+    ]
+  },
+  {
+    "id": 21,
+    "nome": "Marcos Gomes",
+    "foto": "./images/avatar2.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em AWS, Java, SQL e foco em soluções práticas.",
+    "localizacao": "Curitiba/PR",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Java",
+      "SQL"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Liderança",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 32",
+        "cargo": "Desenvolvedor",
+        "inicio": "2015-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "Unicamp",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Educação"
+    ]
+  },
+  {
+    "id": 22,
+    "nome": "Vera Costa",
+    "foto": "./images/avatar3.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Adobe XD, Node.js, Java e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Node.js",
+      "Java"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 6",
+        "cargo": "Designer",
+        "inicio": "2022-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "FIAP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 23,
+    "nome": "William Costa",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em HTML, Python, Tailwind e foco em soluções práticas.",
+    "localizacao": "Recife/PE",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "HTML",
+      "Python",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 46",
+        "cargo": "Desenvolvedor",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "PUC",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 24,
+    "nome": "Uriel Silva",
+    "foto": "./images/avatar5.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em AWS, Adobe XD, Figma e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Adobe XD",
+      "Figma"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 25",
+        "cargo": "Analista",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 25,
+    "nome": "Patrícia Santos",
+    "foto": "./images/avatar6.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Python, Figma, AWS e foco em soluções práticas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Python",
+      "Figma",
+      "AWS"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Trabalho em equipe",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Gerente",
+        "inicio": "2020-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "FIAP",
+        "ano": 2016
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 26,
+    "nome": "Tânia Silva",
+    "foto": "./images/avatar7.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em AWS, Tailwind, Docker e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Tailwind",
+      "Docker"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 17",
+        "cargo": "Designer",
+        "inicio": "2015-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "UNIP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Sustentabilidade"
+    ]
+  },
+  {
+    "id": 27,
+    "nome": "Patrícia Souza",
+    "foto": "./images/avatar8.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em HTML, TypeScript, Node.js e foco em soluções práticas.",
+    "localizacao": "Recife/PE",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "HTML",
+      "TypeScript",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Designer",
+        "inicio": "2015-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Saúde",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 28,
+    "nome": "Isabela Souza",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em SQL, Node.js, Docker e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Node.js",
+      "Docker"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 47",
+        "cargo": "Gerente",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "Unicamp",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 29,
+    "nome": "Patrícia Nascimento",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Kubernetes, Python, AWS e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Kubernetes",
+      "Python",
+      "AWS"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Pensamento crítico",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 46",
+        "cargo": "Analista",
+        "inicio": "2022-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "USP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Educação"
+    ]
+  },
+  {
+    "id": 30,
+    "nome": "Bruno Rodrigues",
+    "foto": "./images/avatar1.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em Adobe XD, Figma, Docker e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Figma",
+      "Docker"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 9",
+        "cargo": "Coordenador",
+        "inicio": "2017-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "USP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Educação"
+    ]
+  },
+  {
+    "id": 31,
+    "nome": "Bruno Almeida",
+    "foto": "./images/avatar2.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Java, AWS, Figma e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "Java",
+      "AWS",
+      "Figma"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Trabalho em equipe",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 4",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "UNIP",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 32,
+    "nome": "Patrícia Pereira",
+    "foto": "./images/avatar3.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em Java, Figma, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Manaus/AM",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "Java",
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 13",
+        "cargo": "Gerente",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "PUC",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 33,
+    "nome": "Rafaela Gomes",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Java, Kubernetes, TypeScript e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Java",
+      "Kubernetes",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 47",
+        "cargo": "Designer",
+        "inicio": "2017-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "FIAP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 34,
+    "nome": "Isabela Nascimento",
+    "foto": "./images/avatar5.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Java, Tailwind, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Java",
+      "Tailwind",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Pensamento crítico",
+      "Criatividade"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 11",
+        "cargo": "Coordenador",
+        "inicio": "2018-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNIP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 35,
+    "nome": "Zoé Gomes",
+    "foto": "./images/avatar6.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em AWS, Figma, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "AWS",
+      "Figma",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Empatia",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 35",
+        "cargo": "Gerente",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Unicamp",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Scrum Master"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 36,
+    "nome": "Felipe Pereira",
+    "foto": "./images/avatar7.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Node.js, Kubernetes, React e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "Kubernetes",
+      "React"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Criatividade",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 15",
+        "cargo": "Designer",
+        "inicio": "2017-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "PUC",
+        "ano": 2020
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 37,
+    "nome": "Ana Nascimento",
+    "foto": "./images/avatar8.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Tailwind, AWS, Figma e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "AWS",
+      "Figma"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Liderança",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 45",
+        "cargo": "Analista",
+        "inicio": "2017-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "PUC",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 38,
+    "nome": "Felipe Oliveira",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Front-end Developer",
+    "resumo": "Profissional com experiência em Docker, SQL, HTML e foco em soluções práticas.",
+    "localizacao": "Recife/PE",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "Docker",
+      "SQL",
+      "HTML"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 22",
+        "cargo": "Coordenador",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNIP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Educação"
+    ]
+  },
+  {
+    "id": 39,
+    "nome": "Nina Almeida",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em C#, React, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "C#",
+      "React",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Resiliência",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 30",
+        "cargo": "Desenvolvedor",
+        "inicio": "2015-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "PUC",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Educação"
+    ]
+  },
+  {
+    "id": 40,
+    "nome": "Samuel Oliveira",
+    "foto": "./images/avatar1.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em Tailwind, SQL, Adobe XD e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "SQL",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Liderança",
+      "Empatia",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 49",
+        "cargo": "Desenvolvedor",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "UNIP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 41,
+    "nome": "Tânia Santos",
+    "foto": "./images/avatar2.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em CSS, Tailwind, Figma e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "CSS",
+      "Tailwind",
+      "Figma"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Criatividade",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 13",
+        "cargo": "Gerente",
+        "inicio": "2017-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "Unicamp",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 42,
+    "nome": "Zoé Oliveira",
+    "foto": "./images/avatar3.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em HTML, CSS, AWS e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "HTML",
+      "CSS",
+      "AWS"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Criatividade",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 8",
+        "cargo": "Analista",
+        "inicio": "2015-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "UNIP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 43,
+    "nome": "Vera Santos",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em AWS, HTML, Docker e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "AWS",
+      "HTML",
+      "Docker"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 50",
+        "cargo": "Analista",
+        "inicio": "2020-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "UNIP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 44,
+    "nome": "Hugo Costa",
+    "foto": "./images/avatar5.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em Java, Adobe XD, TypeScript e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Saúde",
+    "habilidadesTecnicas": [
+      "Java",
+      "Adobe XD",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Resiliência",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 46",
+        "cargo": "Estagiário",
+        "inicio": "2016-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "UNIP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 45,
+    "nome": "Carla Almeida",
+    "foto": "./images/avatar6.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em SQL, Docker, Kubernetes e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "SQL",
+      "Docker",
+      "Kubernetes"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Trabalho em equipe",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Estagiário",
+        "inicio": "2016-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "FIAP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 46,
+    "nome": "Marcos Gomes",
+    "foto": "./images/avatar7.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Node.js, C#, React e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Node.js",
+      "C#",
+      "React"
+    ],
+    "softSkills": [
+      "Empatia",
+      "Resiliência",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 15",
+        "cargo": "Analista",
+        "inicio": "2015-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "PUC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Automação",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 47,
+    "nome": "Uriel Silva",
+    "foto": "./images/avatar8.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em C#, React, Adobe XD e foco em soluções práticas.",
+    "localizacao": "São Paulo/SP",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "C#",
+      "React",
+      "Adobe XD"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Trabalho em equipe"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 12",
+        "cargo": "Estagiário",
+        "inicio": "2021-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "FIAP",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 48,
+    "nome": "Hugo Rodrigues",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Java, Kubernetes, React e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Produto",
+    "habilidadesTecnicas": [
+      "Java",
+      "Kubernetes",
+      "React"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 40",
+        "cargo": "Designer",
+        "inicio": "2016-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNIP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Automação"
+    ]
+  },
+  {
+    "id": 49,
+    "nome": "Laura Rodrigues",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Java, AWS, Python e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Java",
+      "AWS",
+      "Python"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Liderança",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 1",
+        "cargo": "Analista",
+        "inicio": "2016-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "USP",
+        "ano": 2018
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Automação"
+    ]
+  },
+  {
+    "id": 50,
+    "nome": "Eduarda Nascimento",
+    "foto": "./images/avatar1.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em Java, TypeScript, Tailwind e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Java",
+      "TypeScript",
+      "Tailwind"
+    ],
+    "softSkills": [
+      "Criatividade",
+      "Resiliência",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 31",
+        "cargo": "Coordenador",
+        "inicio": "2020-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "FIAP",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 51,
+    "nome": "Zoé Pereira",
+    "foto": "./images/avatar2.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em TypeScript, Kubernetes, SQL e foco em soluções práticas.",
+    "localizacao": "Recife/PE",
+    "area": "Marketing",
+    "habilidadesTecnicas": [
+      "TypeScript",
+      "Kubernetes",
+      "SQL"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Pensamento crítico",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 6",
+        "cargo": "Coordenador",
+        "inicio": "2015-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "PUC",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Automação"
+    ]
+  },
+  {
+    "id": 52,
+    "nome": "Ana Gomes",
+    "foto": "./images/avatar3.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Tailwind, Figma, AWS e foco em soluções práticas.",
+    "localizacao": "Porto Alegre/RS",
+    "area": "Desenvolvimento",
+    "habilidadesTecnicas": [
+      "Tailwind",
+      "Figma",
+      "AWS"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 21",
+        "cargo": "Estagiário",
+        "inicio": "2021-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Tecnólogo em Análise e Desenvolvimento",
+        "instituicao": "PUC",
+        "ano": 2021
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Entretenimento",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 53,
+    "nome": "Isabela Rodrigues",
+    "foto": "./images/avatar4.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em Adobe XD, Python, Java e foco em soluções práticas.",
+    "localizacao": "Brasília/DF",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Python",
+      "Java"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Trabalho em equipe",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 42",
+        "cargo": "Gerente",
+        "inicio": "2020-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "FIAP",
+        "ano": 2019
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Azure Fundamentals"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Automação"
+    ]
+  },
+  {
+    "id": 54,
+    "nome": "Felipe Nascimento",
+    "foto": "./images/avatar5.svg",
+    "cargo": "Product Manager",
+    "resumo": "Profissional com experiência em TypeScript, Python, SQL e foco em soluções práticas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "RH",
+    "habilidadesTecnicas": [
+      "TypeScript",
+      "Python",
+      "SQL"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Empatia",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 2",
+        "cargo": "Estagiário",
+        "inicio": "2016-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Design Gráfico",
+        "instituicao": "Unicamp",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Automação"
+    ]
+  },
+  {
+    "id": 55,
+    "nome": "Eduarda Gomes",
+    "foto": "./images/avatar6.svg",
+    "cargo": "UX Designer",
+    "resumo": "Profissional com experiência em C#, Python, SQL e foco em soluções práticas.",
+    "localizacao": "Recife/PE",
+    "area": "TI",
+    "habilidadesTecnicas": [
+      "C#",
+      "Python",
+      "SQL"
+    ],
+    "softSkills": [
+      "Pensamento crítico",
+      "Liderança",
+      "Resiliência"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 22",
+        "cargo": "Coordenador",
+        "inicio": "2022-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "Unicamp",
+        "ano": 2023
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Fintech",
+      "Entretenimento"
+    ]
+  },
+  {
+    "id": 56,
+    "nome": "João Silva",
+    "foto": "./images/avatar7.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Docker, React, Node.js e foco em soluções práticas.",
+    "localizacao": "Fortaleza/CE",
+    "area": "Consultoria",
+    "habilidadesTecnicas": [
+      "Docker",
+      "React",
+      "Node.js"
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Criatividade",
+      "Empatia"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 6",
+        "cargo": "Gerente",
+        "inicio": "2022-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Pós em Data Science",
+        "instituicao": "FIAP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Sustentabilidade",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 57,
+    "nome": "Xênia Silva",
+    "foto": "./images/avatar8.svg",
+    "cargo": "Engenheiro de Software",
+    "resumo": "Profissional com experiência em Python, C#, SQL e foco em soluções práticas.",
+    "localizacao": "Salvador/BA",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Python",
+      "C#",
+      "SQL"
+    ],
+    "softSkills": [
+      "Trabalho em equipe",
+      "Comunicação",
+      "Liderança"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Desenvolvedor",
+        "inicio": "2019-01",
+        "fim": "2024-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "PUC",
+        "ano": 2017
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Fintech"
+    ]
+  },
+  {
+    "id": 58,
+    "nome": "Vera Silva",
+    "foto": "./images/avatar9.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Java, Kubernetes, CSS e foco em soluções práticas.",
+    "localizacao": "Belo Horizonte/MG",
+    "area": "Dados",
+    "habilidadesTecnicas": [
+      "Java",
+      "Kubernetes",
+      "CSS"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 43",
+        "cargo": "Desenvolvedor",
+        "inicio": "2019-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "UNIP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Intermediário"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "IA ética"
+    ]
+  },
+  {
+    "id": 59,
+    "nome": "Felipe Souza",
+    "foto": "./images/avatar10.svg",
+    "cargo": "Back-end Developer",
+    "resumo": "Profissional com experiência em Adobe XD, Tailwind, Docker e foco em soluções práticas.",
+    "localizacao": "Rio de Janeiro/RJ",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Adobe XD",
+      "Tailwind",
+      "Docker"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Pensamento crítico",
+      "Comunicação"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 27",
+        "cargo": "Analista",
+        "inicio": "2015-01",
+        "fim": "2025-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Engenharia de Software",
+        "instituicao": "FIAP",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "Google Data Analytics"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "IA ética",
+      "Saúde"
+    ]
+  },
+  {
+    "id": 60,
+    "nome": "Yago Silva",
+    "foto": "./images/avatar1.svg",
+    "cargo": "Analista de Dados",
+    "resumo": "Profissional com experiência em Kubernetes, Java, TypeScript e foco em soluções práticas.",
+    "localizacao": "Brasília/DF",
+    "area": "Design",
+    "habilidadesTecnicas": [
+      "Kubernetes",
+      "Java",
+      "TypeScript"
+    ],
+    "softSkills": [
+      "Resiliência",
+      "Liderança",
+      "Pensamento crítico"
+    ],
+    "experiencias": [
+      {
+        "empresa": "Empresa 23",
+        "cargo": "Desenvolvedor",
+        "inicio": "2018-01",
+        "fim": "2023-06",
+        "descricao": "Atuação em projetos relevantes relacionados à área."
+      }
+    ],
+    "formacao": [
+      {
+        "curso": "Bacharelado em Ciência da Computação",
+        "instituicao": "Unicamp",
+        "ano": 2022
+      }
+    ],
+    "projetos": [
+      {
+        "titulo": "Projeto Exemplo",
+        "link": "https://example.com",
+        "descricao": "Protótipo desenvolvido durante curso."
+      }
+    ],
+    "certificacoes": [
+      "AWS Certified"
+    ],
+    "idiomas": [
+      {
+        "idioma": "Inglês",
+        "nivel": "Avançado"
+      }
+    ],
+    "areaInteresses": [
+      "Educação",
+      "Saúde"
+    ]
+  }
+]
