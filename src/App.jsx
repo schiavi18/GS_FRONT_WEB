@@ -77,3 +77,61 @@ export default function App() {
         : [...prev, id]
     )
   }
+  const isFavorite = (id) => favorites.includes(id)
+
+  const handleSearchFocus = () => {
+    setShowExplore(true)
+    setTimeout(() => {
+      searchRef.current?.scrollIntoView({ behavior: 'smooth' })
+    }, 100)
+  }
+
+  return (
+    <div className="min-h-screen bg-light-bg dark:bg-dark-bg text-light-text dark:text-dark-text transition-colors duration-300">
+      {/* Header */}
+      <Header dark={dark} onToggleDark={() => setDark(d => !d)} />
+
+      {/* Hero Section */}
+      {!showExplore && (
+        <>
+          <Hero totalProfiles={profiles.length} onSearchFocus={handleSearchFocus} />
+          <Features />
+        </>
+      )}
+
+      {/* Main Content */}
+      <main className={`max-w-7xl mx-auto px-3 sm:px-4 md:px-6 ${showExplore ? 'py-6 sm:py-8' : 'py-6 sm:py-8'}`}>
+        {/* Search Bar */}
+        <div ref={searchRef} className="mb-6 sm:mb-8">
+          <SearchBar
+            query={query}
+            onQueryChange={setQuery}
+            filterArea={filterArea}
+            onAreaChange={setFilterArea}
+            filterCity={filterCity}
+            onCityChange={setFilterCity}
+            filterTech={filterTech}
+            onTechChange={setFilterTech}
+            profiles={profiles}
+          />
+        </div>
+
+        {/* Results Section */}
+        {paginatedProfiles.length > 0 ? (
+          <>
+            {/* Results Info */}
+            <div className="mb-4 sm:mb-6 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 sm:gap-0">
+              <div>
+                <p className="text-sm text-light-muted dark:text-dark-muted">
+                  {filtered.length} profissional{filtered.length !== 1 ? 's' : ''} encontrado{filtered.length !== 1 ? 's' : ''}
+                </p>
+              </div>
+              {showExplore && (
+                <button
+                  onClick={() => setShowExplore(false)}
+                  className="text-sm text-brand-primary hover:underline"
+                >
+                  ← Voltar ao início
+                </button>
+              )}
+            </div>
