@@ -135,3 +135,92 @@ export default function App() {
                 </button>
               )}
             </div>
+            {/* Grid */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 mb-6 sm:mb-8">
+              {paginatedProfiles.map(p => (
+                <ProfileCard
+                  key={p.id}
+                  p={p}
+                  onOpen={setSelected}
+                  isFavorite={isFavorite(p.id)}
+                  onToggleFavorite={toggleFavorite}
+                />
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex flex-col sm:flex-row justify-center items-center gap-3 sm:gap-2 mt-6 sm:mt-8">
+                <button
+                  onClick={() => setCurrentPage(prev => Math.max(prev - 1, 1))}
+                  disabled={currentPage === 1}
+                  className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
+                >
+                  ← Anterior
+                </button>
+
+                <div className="hidden sm:flex gap-1">
+                  {Array.from({ length: totalPages }, (_, i) => i + 1).map(page => (
+                    <button
+                      key={page}
+                      onClick={() => setCurrentPage(page)}
+                      className={`px-3 py-2 rounded-lg font-medium transition-colors ${
+                        currentPage === page
+                          ? 'bg-brand-primary text-white'
+                          : 'btn-secondary'
+                      }`}
+                    >
+                      {page}
+                    </button>
+                  ))}
+                </div>
+
+                <button
+                  onClick={() => setCurrentPage(prev => Math.min(prev + 1, totalPages))}
+                  disabled={currentPage === totalPages}
+                  className="btn-secondary disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
+                >
+                  Próxima →
+                </button>
+              </div>
+            )}
+
+            {/* Results Info */}
+            <div className="text-center mt-6 sm:mt-8 text-xs sm:text-sm text-light-muted dark:text-dark-muted">
+              Mostrando {(currentPage - 1) * ITEMS_PER_PAGE + 1} a{' '}
+              {Math.min(currentPage * ITEMS_PER_PAGE, filtered.length)} de {filtered.length} resultados
+            </div>
+          </>
+        ) : (
+          <div className="text-center py-12 sm:py-16">
+            <p className="text-xl sm:text-2xl font-bold text-light-text dark:text-dark-text mb-3 sm:mb-4">
+              Nenhum profissional encontrado
+            </p>
+            <p className="text-sm sm:text-base text-light-muted dark:text-dark-muted mb-4 sm:mb-6">
+              Tente ajustar seus filtros de busca
+            </p>
+            <button
+              onClick={() => {
+                setQuery('')
+                setFilterArea('')
+                setFilterCity('')
+                setFilterTech('')
+              }}
+              className="btn-primary"
+            >
+              Limpar todos os filtros
+            </button>
+          </div>
+        )}
+      </main>
+
+      {/* Modal */}
+      <ProfileModal
+        p={selected}
+        onClose={() => setSelected(null)}
+        isFavorite={selected ? isFavorite(selected.id) : false}
+        onToggleFavorite={toggleFavorite}
+      />
+    </div>
+  )
+}
