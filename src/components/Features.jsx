@@ -33,12 +33,8 @@ export default function Features() {
       description: 'Alterne entre temas claro e escuro para melhor conforto visual'
     }
   ]
-<<<<<<< HEAD
-   return (
-=======
 
   return (
->>>>>>> juh
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-light-bg dark:bg-dark-bg">
       <div className="max-w-7xl mx-auto px-3 sm:px-4 md:px-6">
         <div className="text-center mb-8 sm:mb-12 md:mb-16 space-y-2 sm:space-y-4">
@@ -71,8 +67,4 @@ export default function Features() {
       </div>
     </section>
   )
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> juh

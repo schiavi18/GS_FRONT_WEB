@@ -10,11 +10,7 @@ export default function ProfileCard({ p, onOpen, isFavorite, onToggleFavorite })
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-<<<<<<< HEAD
-      {/* Header favoritar */}
-=======
       {/* Header with Favorite Button */}
->>>>>>> juh
       <div className="flex justify-between items-start mb-2 sm:mb-3">
         <div className="flex-1">
           <h3 className="text-sm sm:text-base font-bold text-light-text dark:text-dark-text line-clamp-1">
@@ -34,10 +30,7 @@ export default function ProfileCard({ p, onOpen, isFavorite, onToggleFavorite })
           {isFavorite ? '❤️' : '🤍'}
         </button>
       </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> juh
       {/* Profile Image */}
       <div className="mb-2 sm:mb-3 overflow-hidden rounded-lg">
         <img
@@ -79,10 +72,7 @@ export default function ProfileCard({ p, onOpen, isFavorite, onToggleFavorite })
           )}
         </div>
       </div>
-<<<<<<< HEAD
-=======
 
->>>>>>> juh
       {/* Summary */}
       <p className="text-xs sm:text-sm text-light-text dark:text-dark-text line-clamp-2 mb-2 sm:mb-3">
         {p.resumo}
