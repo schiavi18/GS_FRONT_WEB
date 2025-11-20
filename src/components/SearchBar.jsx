@@ -48,3 +48,42 @@ export default function SearchBar({
           className="input-field w-full pl-10"
         />
       </div>
+      {/* Filters Row */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
+        {/* Area Filter */}
+        <select
+          value={filterArea}
+          onChange={(e) => onAreaChange(e.target.value)}
+          className="input-field text-sm"
+        >
+          <option value="">Todas as áreas</option>
+          {areas.map(a => (
+            <option key={a} value={a}>{a}</option>
+          ))}
+        </select>
+
+        {/* City Filter */}
+        <select
+          value={filterCity}
+          onChange={(e) => onCityChange(e.target.value)}
+          className="input-field text-sm"
+        >
+          <option value="">Todas as cidades</option>
+          {cities.map(c => (
+            <option key={c} value={c}>{c}</option>
+          ))}
+        </select>
+
+        {/* Technology Filter */}
+        <div className="relative">
+          <select
+            value={filterTech}
+            onChange={(e) => onTechChange(e.target.value)}
+            className="input-field text-sm w-full"
+          >
+            <option value="">Todas as tecnologias</option>
+            {technologies.map(t => (
+              <option key={t} value={t}>{t}</option>
+            ))}
+          </select>
+        </div>
