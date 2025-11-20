@@ -41,3 +41,39 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('favorites', JSON.stringify(favorites))
   }, [favorites])
+ // Filter profiles
+  const filtered = useMemo(() => {
+    return profiles.filter(p => {
+      const matchesQuery = (
+        p.nome + ' ' +
+        p.cargo + ' ' +
+        p.habilidadesTecnicas.join(' ')
+      ).toLowerCase().includes(query.toLowerCase())
+
+      const matchesArea = filterArea ? p.area === filterArea : true
+      const matchesCity = filterCity ? p.localizacao === filterCity : true
+      const matchesTech = filterTech ? p.habilidadesTecnicas.includes(filterTech) : true
+
+      return matchesQuery && matchesArea && matchesCity && matchesTech
+    })
+  }, [profiles, query, filterArea, filterCity, filterTech])
+
+  // Pagination
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
+  const paginatedProfiles = useMemo(() => {
+    const start = (currentPage - 1) * ITEMS_PER_PAGE
+    return filtered.slice(start, start + ITEMS_PER_PAGE)
+  }, [filtered, currentPage])
+
+  // Reset page when filters change
+  useEffect(() => {
+    setCurrentPage(1)
+  }, [query, filterArea, filterCity, filterTech])
+
+  const toggleFavorite = (id) => {
+    setFavorites(prev =>
+      prev.includes(id)
+        ? prev.filter(fav => fav !== id)
+        : [...prev, id]
+    )
+  }
