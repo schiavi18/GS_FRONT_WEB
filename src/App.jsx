@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useEffect, useState, useMemo, useRef } from 'react'
+import Header from './components/Header'
+import Hero from './components/Hero'
+import Features from './components/Features'
+import ProfileCard from './components/ProfileCard'
+import ProfileModal from './components/ProfileModal'
+import SearchBar from './components/SearchBar'
+import profilesData from './data/profiles.json'
 
-function App() {
-  const [count, setCount] = useState(0)
+const ITEMS_PER_PAGE = 12
 
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+export default function App() {
+  const [profiles, setProfiles] = useState([])
+  const [query, setQuery] = useState('')
+  const [filterArea, setFilterArea] = useState('')
+  const [filterCity, setFilterCity] = useState('')
+  const [filterTech, setFilterTech] = useState('')
+  const [selected, setSelected] = useState(null)
+  const [dark, setDark] = useState(false)
+  const [favorites, setFavorites] = useState([])
+  const [currentPage, setCurrentPage] = useState(1)
+  const [showExplore, setShowExplore] = useState(false)
+  const searchRef = useRef(null)
 
-export default App
+  // Initialize
+  useEffect(() => {
+    setProfiles(profilesData)
+    const savedTheme = localStorage.getItem('theme')
+    const savedFavorites = localStorage.getItem('favorites')
+    if (savedTheme === 'dark') setDark(true)
+    if (savedFavorites) setFavorites(JSON.parse(savedFavorites))
+  }, [])
+
+  // Persist theme
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', dark)
+    localStorage.setItem('theme', dark ? 'dark' : 'light')
+  }, [dark])
+
+  // Persist favorites
+  useEffect(() => {
+    localStorage.setItem('favorites', JSON.stringify(favorites))
+  }, [favorites])
