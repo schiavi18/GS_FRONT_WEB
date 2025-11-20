@@ -28,6 +28,10 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
             </button>
           </div>
         </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
         {/* Content */}
         <div className="p-3 sm:p-4 md:p-6 space-y-4 sm:space-y-6">
           {/* Profile Header */}
@@ -80,6 +84,10 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
               ))}
             </div>
           </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
           {/* Soft Skills */}
           <div>
             <h3 className="font-bold text-base sm:text-lg mb-2 sm:mb-3 text-light-text dark:text-dark-text">
@@ -162,6 +170,10 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
               </ul>
             </div>
           )}
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
           {/* Languages */}
           {p.idiomas && p.idiomas.length > 0 && (
             <div>
@@ -248,4 +260,8 @@ export default function ProfileModal({ p, onClose, isFavorite, onToggleFavorite 
       </div>
     </div>
   )
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> juh

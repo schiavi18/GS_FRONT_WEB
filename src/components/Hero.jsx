@@ -20,6 +20,10 @@ export default function Hero({ totalProfiles, onSearchFocus }) {
                 Explore uma comunidade de {totalProfiles} profissionais talentosos de diferentes áreas. Encontre especialistas, colaboradores e mentores para impulsionar sua carreira.
               </p>
             </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
             {/* CTA Button */}
             <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 pt-2 sm:pt-4">
               <button
@@ -49,6 +53,10 @@ export default function Hero({ totalProfiles, onSearchFocus }) {
               </div>
             </div>
           </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
           {/* Visual */}
           <div className="hidden md:block">
             <div className="relative">

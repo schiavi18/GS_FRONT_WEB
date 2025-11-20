@@ -48,6 +48,10 @@ export default function SearchBar({
           className="input-field w-full pl-10"
         />
       </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
       {/* Filters Row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3">
         {/* Area Filter */}
@@ -87,6 +91,10 @@ export default function SearchBar({
             ))}
           </select>
         </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
         {/* Clear Filters */}
         {hasActiveFilters && (
           <button

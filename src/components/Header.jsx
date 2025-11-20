@@ -19,7 +19,11 @@ export default function Header({ dark, onToggleDark }) {
           </div>
         </div>
 
+<<<<<<< HEAD
         {/* modo claro/escuro */}
+=======
+        {/* Theme Toggle */}
+>>>>>>> juh
         <button
           onClick={onToggleDark}
           className="p-2 sm:p-2.5 rounded-lg bg-light-border dark:bg-dark-border hover:bg-light-muted dark:hover:bg-dark-muted transition-colors text-lg sm:text-xl"

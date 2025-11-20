@@ -46,6 +46,10 @@
     @apply badge bg-purple-100 dark:bg-purple-900 text-brand-secondary dark:text-purple-300;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
 /* Modal backdrop */
 .modal-backdrop {
   @apply fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity duration-200;
@@ -79,6 +83,10 @@
     opacity: 1;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
 /* Scrollbar styling */
 ::-webkit-scrollbar {
   @apply w-2 h-2;

@@ -41,7 +41,12 @@ export default function App() {
   useEffect(() => {
     localStorage.setItem('favorites', JSON.stringify(favorites))
   }, [favorites])
+<<<<<<< HEAD
  // Filter profiles
+=======
+
+  // Filter profiles
+>>>>>>> juh
   const filtered = useMemo(() => {
     return profiles.filter(p => {
       const matchesQuery = (
@@ -77,6 +82,10 @@ export default function App() {
         : [...prev, id]
     )
   }
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
   const isFavorite = (id) => favorites.includes(id)
 
   const handleSearchFocus = () => {
@@ -135,6 +144,10 @@ export default function App() {
                 </button>
               )}
             </div>
+<<<<<<< HEAD
+=======
+
+>>>>>>> juh
             {/* Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4 md:gap-5 mb-6 sm:mb-8">
               {paginatedProfiles.map(p => (
