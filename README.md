@@ -1,6 +1,6 @@
 # 🌐 NetworkUP – Plataforma Profissional do Futuro  
  
-**👉 LINK REPOSITÓRIO ->** [Click aqui para acessar ao vídeo. ](https://github.com/schiavi18/GS_FRONT_WEB) 
+**👉 LINK REPOSITÓRIO ->** [Click aqui para acessar ao repositório. ](https://github.com/schiavi18/GS_FRONT_WEB) 
 
 ## 👩‍💻 Desenvolvedores 
 
