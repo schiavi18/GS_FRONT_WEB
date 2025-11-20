@@ -87,3 +87,51 @@ export default function SearchBar({
             ))}
           </select>
         </div>
+        {/* Clear Filters */}
+        {hasActiveFilters && (
+          <button
+            onClick={() => {
+              onQueryChange('')
+              onAreaChange('')
+              onCityChange('')
+              onTechChange('')
+            }}
+            className="btn-secondary text-sm"
+          >
+            Limpar filtros
+          </button>
+        )}
+      </div>
+
+      {/* Active Filters Display */}
+      {hasActiveFilters && (
+        <div className="flex flex-wrap gap-2">
+          {query && (
+            <span className="badge-primary">
+              Busca: {query}
+              <button onClick={() => onQueryChange('')} className="ml-2">✕</button>
+            </span>
+          )}
+          {filterArea && (
+            <span className="badge-primary">
+              Área: {filterArea}
+              <button onClick={() => onAreaChange('')} className="ml-2">✕</button>
+            </span>
+          )}
+          {filterCity && (
+            <span className="badge-primary">
+              Cidade: {filterCity}
+              <button onClick={() => onCityChange('')} className="ml-2">✕</button>
+            </span>
+          )}
+          {filterTech && (
+            <span className="badge-primary">
+              Tech: {filterTech}
+              <button onClick={() => onTechChange('')} className="ml-2">✕</button>
+            </span>
+          )}
+        </div>
+      )}
+    </div>
+  )
+}
